@@ -13,8 +13,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/49pctber/shamir"
 	"github.com/spf13/cobra"
+	"github.com/teosoft123/shamir"
 
 	"github.com/skip2/go-qrcode"
 )

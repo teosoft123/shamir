@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	shamir "github.com/49pctber/shamir"
 	"github.com/spf13/cobra"
+	shamir "github.com/teosoft123/shamir"
 )
 
 var reconstructCmd = &cobra.Command{
