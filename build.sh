@@ -3,14 +3,10 @@
 GOROOT=/Users/oleg/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.3.darwin-arm64
 GOPATH=/Users/oleg/go
 
-echo "GOOS: $GOOS"
-echo "GOARCH: $GOARCH"
-echo "VERSION: $VERSION"
-
 OUTPUT_NAME="shamir"
-GOOS="${1:=linux}"
-GOARCH="${2:=amd64}"
-VERSION="${3:=0_0_0}"
+GOOS="${GOOS:=linux}"
+GOARCH="${GOARCH:=amd64}"
+VERSION="${VERSION:=0_0_0}"
 
 echo "GOOS: $GOOS"
 echo "GOARCH: $GOARCH"
